@@ -6,7 +6,7 @@ const app = express();
 app.get("/", (req, res) => {
   res
     .status(200)
-    .json(new ApiResponse(200,null,"This is backend for Acquisitions"));
+    .json(new ApiResponse(200, null, "This is backend for Acquisitions"));
 });
 
 export default app;
