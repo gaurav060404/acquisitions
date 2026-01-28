@@ -1,5 +1,4 @@
 node_modules/
 package-lock.json
-.prettierrc
-.prettierignore
-eslint.config.js
+*.config.js
+.env
